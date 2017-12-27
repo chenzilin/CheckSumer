@@ -46,7 +46,7 @@ int main (int argc, char *argv[])
 
     checksum32 %= 0x100000000;
 
-    printf("%08x\n", checksum32);
+    printf("%08X\n", (unsigned int)checksum32);
 
 
     fclose(fp);
